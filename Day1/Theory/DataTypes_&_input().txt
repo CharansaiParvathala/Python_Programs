@@ -1,7 +1,7 @@
 # Single-line comment
 
 """
-'''Topic 1: Data Types and Input Function'''
+'''Topic 1: Data Types and input,type functions'''
 
 2) Data Types:
    In Python, we do not need to specify data types explicitly; they are inferred based on the assigned value.
