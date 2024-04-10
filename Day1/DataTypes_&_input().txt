@@ -1,0 +1,20 @@
+# Single-line comment
+
+"""
+'''Topic 1: Data Types and Input Function'''
+
+2) Data Types:
+   In Python, we do not need to specify data types explicitly; they are inferred based on the assigned value.
+   Data types:
+     1. int                        :  Numeric Numbers (100,-40)
+     2. float                    :  Decimal Numbers (10.9,-2.67)
+     3.complex              : Complex Numbers (2i+1j)
+     4. str                        : Strings ("charan","sai")
+     5.bool                      : Boolean expressions (True,False)
+
+2) Input():
+   The input() function is used to accept user input during runtime.
+   *Note*: The input() function always returns a string. If we want to use a different data type, we must convert the string input.
+   We can convert string data to another data type like this:
+   var = datatype(input())
+"""
