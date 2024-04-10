@@ -4,7 +4,7 @@
 '''Topic 1: Data Types and input,type functions'''
 
 2) Data Types:
-   In Python, we do not need to specify data types explicitly; they are inferred based on the assigned value.
+   In Python, we do not need to specify data types separately; they are considered based on the assigned value.
    Data types:
      1. int         :  Numeric Numbers (100,-40)
      2. float       :  Decimal Numbers (10.9,-2.67)
