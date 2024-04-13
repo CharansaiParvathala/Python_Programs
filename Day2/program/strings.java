@@ -22,9 +22,8 @@ print("It is an Alphabet :",s.isalpha())#check a string is alphabet or not
 
 print("Replaced String :",s.replace('a','@'))  #replace a string with other string
 
-ss = s.split(' ') #separate a string with particular character or string
+print("Separated string :",s.split(' '))#separate a string with particular character or string
 
-print("Substring 1 :",ss[0],", Substring 2 :",ss[1])
 
 #To get all methods related to string we use help function 
 #help(str)
