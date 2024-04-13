@@ -1,0 +1,44 @@
+***`if` statement:***
+
+syntax:
+
+if condition:
+    # Code block to execute if the condition is True
+
+Executes a block of code if the specified condition is `True`.
+
+`elif` statement:
+
+syntax:
+
+elif condition:
+    # Code block to execute if the previous conditions are False and this condition is True
+
+Allows checking additional conditions after the initial `if` statement.
+
+****`else` statement:****
+
+syntax:
+
+else:
+    # Code block to execute if all preceding conditions are False
+
+Executes a block of code when none of the preceding `if` or `elif` conditions are `True`.
+
+***`or` operator:***
+
+syntax:
+
+if condition1 or condition2:
+    # Code block to execute if either condition1 or condition2 is True
+
+Combines conditions and returns `True` if at least one condition is `True`.
+
+***`not` operator:***
+
+syntax:
+
+if not condition:
+    # Code block to execute if the condition is False
+
+Negates the condition; executes the code block if the condition is `False`.
