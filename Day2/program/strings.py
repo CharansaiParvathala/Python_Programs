@@ -2,6 +2,8 @@
 
 s = "Charan Sai"
 
+print(s)
+
 print("length :",len(s)) #returns length
 
 print("find a :",s.find('a')) #checks a string exists or not in reverse order
@@ -39,3 +41,14 @@ print("String from index 7 to end :",s[7:])
 print("String with two steps :",s[::2])
 
 print("String Reverse with negative index :",s[::-1])
+
+
+
+#****if and elif and else*****
+
+if s==s.upper(): #condition 1
+	print("String is an upper case")
+elif s==s.lower(): #condition 2
+	print("String is an lower case")
+else: #both conditions are false
+	print("String Contains both lower and upper case")
