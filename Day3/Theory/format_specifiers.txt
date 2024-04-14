@@ -1,0 +1,19 @@
+**f-strings (`f''`) and format specifiers in Python:**
+
+F-strings (formatted string literals) are a feature introduced in Python 3.6 and later versions. They allow you to embed expressions and variables directly into string literals. For example, you can use an f-string like this:
+
+variable = 10
+print(f"The value of variable is {variable}")
+
+In this example, `{variable}` is replaced with the value of the `variable` during runtime.
+
+Format specifiers are used within f-strings to specify how values should be formatted when inserted into the string. For instance, you can format a floating-point number with two decimal places like this:
+
+pi = 3.14159
+print(f"Pi to 2 decimal places: {pi:.2f}")
+
+Here, `:.2f` is a format specifier that formats the `pi` variable as a floating-point number with 2 decimal places (`f` denotes floating-point).
+
+Common format specifiers include `d` (decimal), `b` (binary), `o` (octal), `x` (lowercase hexadecimal), `X` (uppercase hexadecimal) for integers, and `f` (fixed-point), `e` (exponential), `g` (general format) for floating-point numbers. Additionally, there are specifiers for strings (`s`), width and alignment (`:<width>`, `:>width`, `:^width`), and more.
+
+Using f-strings and format specifiers together provides a convenient way to generate formatted strings with dynamic content in Python, improving code readability and flexibility for string formatting tasks.
