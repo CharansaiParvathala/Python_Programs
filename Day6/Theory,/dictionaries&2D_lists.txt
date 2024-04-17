@@ -1,0 +1,11 @@
+🟩 2D Lists:
+  🟢 2D lists in Python are lists of lists, forming a grid-like structure of data.
+  🟢 Elements are accessed using double indexing (`list[row][column]`), allowing for easy manipulation of rows and columns.
+  🟢 Ideal for representing tables, matrices, or game boards where data is organized in rows and columns.
+  🟢 Support nested loops for traversing and performing operations across rows and columns efficiently.
+
+📘 Dictionaries:
+  🔹 Dictionaries are versatile data structures that store key-value pairs.
+  🔹 Each element in a dictionary is accessed by its unique key, providing quick lookups without needing to know the index.
+  🔹 Keys in dictionaries must be immutable objects (e.g., strings, numbers), while values can be of any data type.
+  🔹 Efficient for mapping relationships between data elements and handling associative arrays or mappings.
