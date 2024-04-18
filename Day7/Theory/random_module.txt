@@ -1,0 +1,7 @@
+🎲 Random Module:
+🔸 The `random` module is used to generate random numbers and make random selections.
+🔸 It provides functions for various randomization tasks, like generating random integers, selecting random elements from sequences, shuffling sequences, etc.
+🔸 `random.randint(a, b)` generates a random integer between `a` and `b` (inclusive).
+🔸 `random.choice(sequence)` picks a random element from a sequence like a list, tuple, or string.
+🔸 `random.shuffle(list)` shuffles the elements of a list randomly.
+🔸 `random.random()`: Returns a random floating-point number between 0.0 and 1.0.
