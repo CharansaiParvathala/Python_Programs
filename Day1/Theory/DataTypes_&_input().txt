@@ -1,7 +1,8 @@
 # Single-line comment
 
-"""
-'''Topic 1: Data Types and input,type functions'''
+"""Multi Line comments"""
+
+💾Topic 1: Data Types and input,type functions
 
 2) Data Types:
    In Python, we do not need to specify data types separately; they are considered based on the assigned value.
@@ -20,11 +21,10 @@
 
 3)type():
 
-- What it can do: Returns the type of an object.
+ What it can do: Returns the type of an object.
   
-- Syntax:
+ Syntax:
   type(object)
 
-  - object: The object or variable whose type is to be determined
+   object: The object or variable whose type is to be determined
 
-"""
