@@ -1,0 +1,7 @@
+
+🔤 String Module:
+🔸The `string` module in Python provides a collection of constants and helper functions for working with strings.
+🔸 Constants like `string.ascii_letters`, `string.punctuation`, `string.digits`, etc., offer predefined sets of characters.
+🔸 `string.ascii_letters` includes all ASCII letters (both uppercase and lowercase).
+🔸 `string.punctuation` contains all punctuation characters such as !, @, #, $, etc., which are often used for text processing tasks.
+🔸 `string.digits` consists of numeric characters from 0 to 9.
