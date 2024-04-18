@@ -1,74 +1,74 @@
-***String Indexing in Python:***
+📜String Indexing in Python:
 
 Strings in Python are sequences of characters, and each character in a string can be accessed using its index. The index of the first character is `0`, the second character is `1`, and so on. Additionally, negative indices can be used to access characters from the end of the string
 
-Positive Indexing:
-- `s[0]`: Accesses the first character of the string `s`.
-- `s[1]`: Accesses the second character of the string `s`.
-- `s[n-1]`: Accesses the last character of the string `s`, where `n` is the length of the string.
+🔺Positive Indexing:
+ 🔸`s[0]`: Accesses the first character of the string `s`.
+ 🔸`s[1]`: Accesses the second character of the string `s`.
+ 🔸`s[n-1]`: Accesses the last character of the string `s`, where `n` is the length of the string.
 
-Negative Indexing:
-- `s[-1]`: Accesses the last character of the string `s`.
-- `s[-2]`: Accesses the second last character of the string `s`.
-- `s[-n]`: Accesses the first character of the string `s`.
+🔺Negative Indexing:
+ 🔸`s[-1]`: Accesses the last character of the string `s`.
+ 🔸`s[-2]`: Accesses the second last character of the string `s`.
+ 🔸`s[-n]`: Accesses the first character of the string `s`.
 
 
-***String Functions:***
+🔺String Functions:
 
 1. `len(s)`
-   - Syntax: `len(s)`
-   - Returns: Length of the string `s`.
+   🔸Syntax: `len(s)`
+   🔸Returns: Length of the string `s`.
 
 2. `s.find(substring)`
-   - Syntax: `s.find(substring)`
-   - Returns: Index of the first occurrence of `substring` in `s` (or -1 if not found).
+   🔸Syntax: `s.find(substring)`
+   🔸Returns: Index of the first occurrence of `substring` in `s` (or -1 if not found).
 
 3. `s.rfind(substring)`
-   - Syntax: `s.rfind(substring)`
-   - Returns: Index of the last occurrence of `substring` in `s` (or -1 if not found).
+   🔸Syntax: `s.rfind(substring)`
+   🔸Returns: Index of the last occurrence of `substring` in `s` (or -1 if not found).
 
 4. `s.capitalize()`
-   - Syntax: `s.capitalize()`
-   - Returns: A copy of `s` with the first character capitalized.
+   🔸Syntax: `s.capitalize()`
+   🔸Returns: A copy of `s` with the first character capitalized.
 
 5. `s.upper()`
-   - Syntax: `s.upper()`
-   - Returns: A copy of `s` with all characters converted to uppercase.
+   🔸Syntax: `s.upper()`
+   🔸Returns: A copy of `s` with all characters converted to uppercase.
 
 6. `s.lower()`
-   - Syntax: `s.lower()`
-   - Returns: A copy of `s` with all characters converted to lowercase.
+   🔸Syntax: `s.lower()`
+   🔸Returns: A copy of `s` with all characters converted to lowercase.
 
 7. `s.count(substring)`
-   - Syntax: `s.count(substring)`
-   - Returns: Count of non-overlapping occurrences of `substring` in `s`.
+   🔸Syntax: `s.count(substring)`
+   🔸Returns: Count of non-overlapping occurrences of `substring` in `s`.
 
 8. `s.isdigit()`
-   - Syntax: `s.isdigit()`
-   - Returns: `True` if all characters in `s` are digits, otherwise `False`.
+   🔸Syntax: `s.isdigit()`
+   🔸Returns: `True` if all characters in `s` are digits, otherwise `False`.
 
 9. `s.isalpha()`
-   - Syntax: `s.isalpha()`
-   - Returns: `True` if all characters in `s` are alphabetic, otherwise `False`.
+   🔸Syntax: `s.isalpha()`
+   🔸Returns: `True` if all characters in `s` are alphabetic, otherwise `False`.
 
 10. `s.replace(old, new)`
-   - Syntax: `s.replace(old, new)`
-   - Returns: A copy of `s` with all occurrences of `old` replaced by `new`.
+   🔸Syntax: `s.replace(old, new)`
+   🔸Returns: A copy of `s` with all occurrences of `old` replaced by `new`.
 
 11. `s.split(separator)`
-   - Syntax: `s.split(separator)`
-   - Returns: A list of substrings of `s` split by `separator`.
+   🔸Syntax: `s.split(separator)`
+   🔸Returns: A list of substrings of `s` split by `separator`.
 
 
-***String Slicing:***
+🔺String Slicing:
 
 General Syntax:
-   - `s[start:end:step]`
-   - `start` (default: 0): Starting index of the slice (inclusive).
-   - `end` (default: length of `s`): Ending index of the slice (exclusive).
-   - `step` (default: 1): Step value for slicing.
+   🔸`s[start:end:step]`
+   🔸`start` (default: 0): Starting index of the slice (inclusive).
+   🔸`end` (default: length of `s`): Ending index of the slice (exclusive).
+   🔸`step` (default: 1): Step value for slicing.
 
 Notes:
-- String functions manipulate or provide information about string `s` without modifying the original string.
-- Slicing operations (`[start:end:step]`) create substrings or sequences based on specified indices and steps.
-- Python string methods and slicing provide powerful tools for working with and manipulating strings efficiently.
+🔸String functions manipulate or provide information about string `s` without modifying the original string.
+🔸Slicing operations (`[start:end:step]`) create substrings or sequences based on specified indices and steps.
+🔸Python string methods and slicing provide powerful tools for working with and manipulating strings efficiently.
