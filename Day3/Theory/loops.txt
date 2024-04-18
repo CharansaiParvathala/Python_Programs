@@ -1,15 +1,15 @@
 Loops allow us to execute a block of code repeatedly based on certain conditions.
 
-- `for` loops: Iterate over a sequence of elements. Syntax: "for item in sequence:"
+🔺for loops: Iterate over a sequence of elements. Syntax: "for item in sequence:"
 
-- `while` loops: Execute a block of code repeatedly as long as a specified condition is true. Syntax: "while condition:"
+🔺while loops: Execute a block of code repeatedly as long as a specified condition is true. Syntax: "while condition:"
 
 Python also provides loop control statements:
 
-- `break`: Terminates the loop prematurely.
+🔺break: Terminates the loop prematurely.
 
-- `continue`: Skips the remaining code in the current iteration and proceeds to the next iteration.
+🔺continue: Skips the remaining code in the current iteration and proceeds to the next iteration.
 
-- Loop `else` block: Executes after the loop completes normally (without encountering a `break` statement).
+🔺Loop else block: Executes after the loop completes normally (without encountering a `break` statement).
 
 These loop structures and control statements are essential for controlling program flow and performing repetitive tasks efficiently in Python programming.
