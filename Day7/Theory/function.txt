@@ -1,0 +1,9 @@
+🔑 Function Definition:
+🔸 def: Keyword used to define a new function in Python.
+
+🔢 Parameters and Arguments:
+🔸 Parameters: Variables listed inside the parentheses in a function definition. They are placeholders for data that the function expects to receive.
+🔸 Arguments: Actual values or variables passed to a function when it is called. Arguments are assigned to the corresponding parameters defined in the function.
+
+🔙 Return Statement:
+🔸 return: Keyword used to return a value from a function. It specifies the result of the function's computation back to the caller.
