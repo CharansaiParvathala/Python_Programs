@@ -1,3 +1,8 @@
+#We are using global keyword in this program which refers the global scope variable
+#We discuss about variable scope later in this challenge
+#we use end argument in print function which is used to change end value the default value of end is "\n"
+
+
 # Global variable for balance
 balance = 0
 
