@@ -1,0 +1,17 @@
+#**Default Arguments**
+def function(n_arg, d_arg1 = "Hi", d_arg2 = "how are you ?"):
+	print(d_arg1, n_arg)
+	print(d_arg2)
+
+function("Charan") #call function without passing default arguments
+
+print()
+
+function("Charan","Hello","What are you doing ?") #call function by passing default arguments
+
+
+#**Keyword Arguments**
+def greet(msg, fname, lname):
+	print(msg+' Mr.'+fname+' '+lname)
+#Keyword Arguments
+greet("Hi", fname="Charan", lname="Sai")
