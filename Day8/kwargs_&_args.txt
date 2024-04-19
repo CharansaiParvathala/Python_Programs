@@ -1,0 +1,13 @@
+🫙#Args :
+    *args = non key arguments or positional arguments
+    🔸args are tuple data type
+    🔸we define it using '*'
+    🔸advantage of args : we can pass many number of arguments
+    🔸args can receive multiple values with same name just like tuple
+
+🚚#Kwargs :
+    🔸**kwargs = keyword arguments or non positional arguments
+    🔸kwargs are dictionary data type
+    🔸we define it using '**'
+    🔸advantage of kwargs : we can pass many number of arguments with name
+    🔸**kwargs can receive multiple values with different names

@@ -1,9 +1,0 @@
-    Default Arguments:
-	> The certain arguments that contains default values is called defalut arguments
-	> We can ommit passing default arguments values
-	> Useful to make function flexible
-	
-	 >We must place the defualt arguments at the last in parameters list
-	 
-	         def timer(start = 0, remind="msg", stop, message)
-	 > if we place like this it will generates error in arguments ommiting time.
