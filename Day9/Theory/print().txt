@@ -1,0 +1,22 @@
+
+📚 Python `print()` Function Arguments 🐍
+
+1️⃣ Default Behaviour:
+   - The `print()` function in Python is used to display text or values on the console.
+   - When you call `print("Hi")`, it automatically prints "Hi" and moves to a new line by default (`end='\n'`).
+
+Changing the `end` Argument:
+   - By default, `end='\n'` specifies that each `print()` call ends with a newline character.
+   - You can change this behavior by passing a different `end` argument.
+   - For example, `print("Hi", end='! ')` will print "Hi" followed by an exclamation mark and a space, but won't move to a new line.
+   - Subsequent `print("Hello")` will start on the same line.
+
+3️⃣ Default Separator (`sep`) Arguments:
+   🔸The `print()` function separates multiple items using a space (`sep=' '`).
+   🔸For instance, `print("my name is","charan")` prints "my name is charan" with a space between the items.
+   🔸You can change the separator by specifying a different `sep` argument.
+   🔸Example: `print("my name is","charan", sep=" : ")` will print "my name is : charan".
+
+4️⃣ String Repetition with `*` Operator:
+   🔸You can replicate a string by multiplying it with an integer using the `*` operator.
+   🔸Example: `print("\nString"*3)` will print "String" three times each on a new line.
