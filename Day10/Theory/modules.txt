@@ -1,0 +1,41 @@
+Modules in Python:
+🔺Definition: A module in Python is a file containing Python code that defines functions, classes, or variables.
+🔺Purpose: Modules help organize code into reusable units, making it easier to manage and maintain large programs.
+
+🔺Importing Modules:
+🔸Using `import`: Import an entire module into your Python script.
+
+  import module_name
+
+🔸Using `from`: Import specific items from a module into your script's namespace.
+  
+  from module_name import item_name
+   you can import all items using *
+
+🔺Renaming Imported Items:
+🔸Using `as`: Rename imported items for easier use or to avoid name conflicts.
+
+  from module_name import item_name as new_name
+  
+
+🔺Creating a User Module:
+🔸Step 1: Create a Python File:
+  Create a new Python file (ex: module.py) and define functions or variables inside it.
+
+  #module.py
+  def greet(name):
+      print(f"Hello, {name}!")
+  def square(num):
+      print(num ** 2)
+
+🔺Step 2: Import and Use the User Module:
+  Import the user-defined module (module.py) into another Python script and use its functions.
+
+  # main.py
+  # Importing the user-defined module
+  import module
+  #using function inside module
+  module.greet()
+  module.square(3)
+
+This example demonstrates how to create and use a user-defined module (`my_module.py`) by importing it into another Python script (`main.py`). Modules are powerful tools for code organization, reuse, and abstraction in Python programming.
