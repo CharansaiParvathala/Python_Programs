@@ -1,4 +1,4 @@
-Modules in Python:
+📦Modules in Python:📦
 🔺Definition: A module in Python is a file containing Python code that defines functions, classes, or variables.
 🔺Purpose: Modules help organize code into reusable units, making it easier to manage and maintain large programs.
 
