@@ -1,0 +1,25 @@
+🛡️Exception handling🛡️
+🔺An exception is like a surprise problem that pops up while your program is running, such as trying to open a file that does not exist.
+
+🔺Exception handling is like having a backup plan. Instead of letting your program crash when it encounters a problem, you can use exception handling to catch the problem,
+figure out what went wrong, and decide what to do next.
+
+🔸How it works: We enclose risky code inside a `try` block.
+🔸If something goes wrong: The program jumps to a `except` block that handles the specific issue.
+🔸Multiple problems: You can have different `except` blocks for different types of issues.
+🔸Always do this: Use a `finally` block to run cleanup code, whether there was an issue or not.
+🔸If everything is fine: You can optionally include an `else` block which runs if no exceptions occur in the `try` block.
+
+Example:
+try:
+    # Risky code that may cause exceptions
+except SpecificException as e:
+    # Handle this specific issue
+except AnotherException as e:
+    # Handle a different issue
+else:
+    # This runs if no exceptions occurred
+finally:
+    #always runs
+
+If nothing goes wrong in the `try` block, the program moves to the `else` block (if present) before executing the `finally` block.
