@@ -1,0 +1,31 @@
+📝 Removing a File (os.remove()):
+🔸 Use os.remove(path) to delete a file.
+🔸 Deletes the file located at path.
+
+📖 Reading from a File (open() with 'r' mode):
+🔸 Use open() with mode 'r' to read from a file.
+🔸 This mode allows you to read the contents of an existing file.
+
+➕ Appending to a File (open() with 'a' mode):
+🔸 Use open() with mode 'a' to append to a file.
+🔸 This mode adds new content to the end of an existing file.
+
+📂 Checking if a File Exists (os.path.isfile()):
+🔸 Use os.path.isfile(path) to check if a file exists.
+🔸 Returns True if path points to a file.
+
+📁 Checking if a Directory Exists (os.path.isdir()):
+🔸 Use os.path.isdir(path) to check if a directory exists.
+🔸 Returns True if path points to a directory.
+
+📝 Copying a File (shutil.copy()):
+🔸 Use shutil.copy(src, dst) to copy a file.
+🔸 Copies the file at src to the location dst.
+
+📂 Moving a File (shutil.move()):
+🔸 Use shutil.move(src, dst) to move a file.
+🔸 Moves the file from src to dst location.
+
+🗑️ Removing a File (os.remove()):
+🔸 Use os.remove(path) to delete a file.
+🔸 Deletes the file located at path.
