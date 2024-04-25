@@ -1,0 +1,26 @@
+🌍Object Oriented Programming:
+🔸Object = a thing
+🔸attributes = what that  object has
+                   ex. name,model,year
+🔸methods = what are the actions that object can do
+
+🔑 🔨 KeyWords or methods:
+
+🤳self = Referes to the same object or class or instace variables :
+
+	🔸suppose a methode has variable : name that sane variable is defined in the class class variable : name
+	*self.name* key word referes to the class variable normal *name* variable refers to method variable
+	same like this keyword in java
+	
+🏫class : we can create a class with this keyword
+
+🔺 syntax:
+ class class_name:
+	  body
+	
+🔺 syntax:
+class __init__(arguments):
+	body 
+	same like constructor in the java
+	
+	🔸We can also use this oop technique with  modules (packages) if it is a large program else we can use it directly
