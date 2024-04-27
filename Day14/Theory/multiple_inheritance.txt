@@ -13,7 +13,7 @@
    🔸The super().__init__(arg1) line calls the constructor of ParentClass1 to initialize its attributes.
    🔸Additional initialization can be done in the __init__ method of ChildClass.
 
-3.Uses:
+📜3.Uses:
    🔸Combining functionalities from multiple sources by inheriting from different parent classes.
    🔸Implementing specialized behavior by inheriting from specific classes that provide desired features.
    🔸Reusing code and promoting code modularity by leveraging existing class implementations.
