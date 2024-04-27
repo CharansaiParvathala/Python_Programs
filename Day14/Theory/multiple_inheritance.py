@@ -1,0 +1,19 @@
+📜1. Definition: 
+   Multiple inheritance in Python refers to a class inheriting attributes and methods from more than one parent class simultaneously.
+
+📜2. Syntax:
+   To define a class with multiple inheritance:
+   🔺syntax:
+   class ChildClass(ParentClass1, ParentClass2):
+       def __init__(self, arg1, arg2):
+           super().__init__(arg1)  # Call constructor of ParentClass1
+           self.arg2 = arg2
+   In this syntax:
+   🔸ChildClass inherits from both ParentClass1 and ParentClass2.
+   🔸The super().__init__(arg1) line calls the constructor of ParentClass1 to initialize its attributes.
+   🔸Additional initialization can be done in the __init__ method of ChildClass.
+
+3.Uses:
+   🔸Combining functionalities from multiple sources by inheriting from different parent classes.
+   🔸Implementing specialized behavior by inheriting from specific classes that provide desired features.
+   🔸Reusing code and promoting code modularity by leveraging existing class implementations.
