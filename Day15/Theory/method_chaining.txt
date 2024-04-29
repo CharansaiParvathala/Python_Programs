@@ -1,0 +1,10 @@
+method chaining in python is used to call multiple methods
+from other class one after another in a simple way.
+
+🔸to use method chaining we need to return "self" by previous method.
+🔸because once we call a method with no self return method it generates error
+🔸reason behind error :
+we call a method using method chaining it will return None.
+but if we return self it will return self obj. like below example
+obj . self_return_method . no_self_return_method . method -> 
+obj . no_self_return_methode -> None.method (generates error)
