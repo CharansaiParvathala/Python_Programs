@@ -1,0 +1,8 @@
+🫥Abstract classes in python🫥
+🔺if any class inherits abstract class it must be coverts the a abstract methods into concrete methods. It is the contract between abstract parent class and child class
+
+🔺Before going to implement the abstract class we need to import  ABC, abstractmethode from abc package
+🔸from abc import ABC,abstractmethod
+🔸to make a class abstract we inherit ABC class in it
+🔸we use @abstractmethode above the methode to
+🔸 to define a abstract method in abstract class
