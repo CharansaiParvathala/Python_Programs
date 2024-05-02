@@ -1,0 +1,10 @@
+Walrus Operator :=
+it is used to write a large if or while condition into small
+it is also known as conditional expression
+
+by using walrus operator we can make if or while condition simple and readable
+
+syntax:
+	while variable := input() condition:
+		statements
+		
