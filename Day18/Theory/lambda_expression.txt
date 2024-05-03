@@ -1,0 +1,18 @@
+▶️Lambda Expression:
+	It is used when we need a function thats wanted to use for short period of time and then throw away
+
+🔸syntax:
+	variable = lambda parameters : expression or operation
+🔸lambda function call:
+	variable(arguments)
+🔸with help of lambda function we can make code simple and readable.
+
+
+▶️Reduce :
+we can use lambda expression with reduce function
+reduce function: reduces the no of elements
+
+🔸syntax :
+    reduce(function, list)
+
+🔸reduce function is included in the package called functools
