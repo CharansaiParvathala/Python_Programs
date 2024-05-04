@@ -1,0 +1,20 @@
+▶️In pythpn we can assign a predifined and user defined function to a variable
+
+🔺assigning function to variable:
+	p = print 
+
+🔸assigning predefined function say() to p variable
+🔸now p variable contains adress of print
+🔸we can use p variable now instead of print
+
+🔺Using p variable:
+	p("Hi")
+
+🔸The process behind function assigment is that a variable stores the that function in that variable with that function adress we can acces that function with the variable
+
+🔺example:
+	p = print
+	print(p)
+
+🔺it will display:
+	<built-in function print>
