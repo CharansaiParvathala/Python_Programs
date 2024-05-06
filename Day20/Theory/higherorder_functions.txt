@@ -1,0 +1,12 @@
+Higher Order Functions:
+
+🔺In python functions are also treated as objects
+	a function which takes onother function as argument is known as higher order function
+
+                       (or)
+
+🔺Higher order functions are functions that can take
+other functions as arguments or return functions as results.
+
+🔸This concept allows for a more dynamic and flexible approach to programming by treating functions as first-class citizens, which means they can be manipulated and operated upon just like any other data type.
+🔸Higher order functions are a fundamental concept in functional programming, enabling code modularity, reusability, and abstraction of behavior.
