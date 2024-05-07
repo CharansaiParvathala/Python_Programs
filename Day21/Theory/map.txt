@@ -1,0 +1,13 @@
+map() functin:
+use:
+    by using map function we can apply a specific function to all elements in a list,tuple,set
+
+this function mainly take two arguments:
+    one is : function - the function that we wanted to apply to the items
+    second is : iterable - the iterable items like list or tuple or set
+
+syntax:
+    variable = map(function, iterable)
+
+    the map function returns the each item after applying function to it
+    to store that items we are using the variable.
