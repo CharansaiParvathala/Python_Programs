@@ -1,0 +1,15 @@
+Zip():
+
+Uses:
+    -> zip function is very useful in programming by using zip function we can combine multiple iterables
+    -> we can combine two or more itrables like lists, tuples, sets, .., etc .
+    -> we can also use list function in for loop to unpack multiple iterables
+
+Syntax:
+    variable = zip(itrable1, iterable2,..., iteable-n)
+    -> we can also type cast the zip returned iterables like:
+        type(zip(itearble1,..., iterable-n))
+Use of zip in for loop:
+    -> we can unpack the items using zip in for loop like:
+       for variable1, variable2, variable3 in zip(list1, list2, list3):
+            statements
