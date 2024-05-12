@@ -1,0 +1,17 @@
+List Comprehension :
+    By using list comprehension we can make a for,if conditional more lines of code into single line code
+
+Syntax:
+    variable = [expression if condition else returnvalue for var in list]
+
+example:
+    -> program to store and display 10 numbers with and without list comprehension:
+    with list comprehension:
+        l = []
+        for i in range(11):
+            l.append(i)
+        print(l)
+    with list comprehension:
+        l = [i for i in range(11)]
+        print(l)
+    -> here we can see the difference between two programs
