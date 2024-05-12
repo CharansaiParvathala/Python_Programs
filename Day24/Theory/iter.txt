@@ -1,0 +1,10 @@
+Iter tools:
+    these are very useful in programming these are like list
+    but the difference is it gives only one item at a time.
+syntax to create a iter variable:
+    variable = iter((item1,item2,..,item-n))
+
+attributes:
+    for go to next item we use __next__():
+        variable.__next__()
+        it will go to the next item in iterable
