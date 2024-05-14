@@ -1,0 +1,14 @@
+Genarator :
+    genarator is a iterable object like iterator
+syntax:
+    def name():
+        yield 1
+        yield 2
+        .
+        .
+        yield n
+
+    we can make a genarator simply by using multiple yields instead of return in a function
+
+if we use return in a function it will terminates the function by passing value to the called function
+but using yield it doesn't terimates the program it will pass the value and continue the function after that.
