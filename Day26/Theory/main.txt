@@ -1,0 +1,44 @@
+main:
+    Writing code in main is good thing to do in python
+    why because if we create a python module name mm.py without using main:
+    mo.py
+        a = 50
+        print('hi')
+
+    suppose we import it from another file to use a variable:
+    ma.py
+        import mm
+        b = mm.a
+
+    here 'hi' will be printed without calling any function because python execute every line of
+    code that writed directly in program when ever we import it in another file to prevent this we use main
+
+    syntax:
+        if __name__ == '__main__':
+            pass
+    here __name__ is a special variable that will be initialized with __main__
+    if execute the function called mo.py the __name__ value is __main__ in mo file
+    if we execute the function ma that imports mo the __name__ value in mo is mo
+
+    ex:
+        module.py
+        a = 50
+        if __name__ == '__main__':
+            print('MODULEM IS EXECUTED')
+        if __name__ == 'module':
+            print('MODULE IS IMPORTED')
+
+    output:
+        MODULEM IS EXECUTED
+
+    program.py
+    import module
+    print(module.a)
+    print('__name__ in program file :',__name__)
+    print('__name__ in module file :',module.__name__)
+
+    output:
+        MODULE IS IMPORTED
+        50
+        __name__ in program file : __main__
+        __name__ in module file : module
