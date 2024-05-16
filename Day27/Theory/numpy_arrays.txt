@@ -1,0 +1,44 @@
+Introduction to Numpy:
+    Numpy is a python library it is used to manage data.
+    In python numpy is not a preinstalled library we need to install it externally
+    to install numpy:
+        -> go to terminal
+        -> type 'pip install numpy'
+        -> press enter it will install numpy library
+Arrays with numpy:
+    Six methods are there in numpy to create an array:
+    1.array() :
+        it will take 2 arguments
+        first one is array elements list, second one is datatype of the array
+        data type is optional if we want to make type coversion then only we mention type.
+        syntax:
+            variable = array(elements, datatype)
+    2.zeros() :
+        takes two arguments
+        size of the array, datatype
+        syntax:
+            variable = zeros(size, datatype)
+        it initializes the all elements with 0's
+        the default data type is float
+    3.ones() :
+        takes two arguments
+        size of the array, datatype
+        syntax:
+            variable = ones(size, datatype)
+        it is same like zeros() method difference is
+        it initializes the all elements with 1's
+    4.linspace() :
+        it initializes the array with specified range
+        it takes three aurguments
+        starting value of the array, ending value of the array, no of parts of array division
+        syntax:
+            variable = linspace(start, stop, parts)
+    5.logspace() :
+        it is same like linspace but the difference is it will applies the log to all values
+        from starting to end
+        syntax:
+            variable = logspace(start, stop, logbase)
+    6.arange():
+        its same like range function it returns specified range of values in the form of array
+        syntax:
+            variable = arange(start, stop, step)
