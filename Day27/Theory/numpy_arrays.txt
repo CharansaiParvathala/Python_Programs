@@ -1,5 +1,5 @@
 Introduction to Numpy:
-    Numpy is a python library it is used to manage data.
+    Numpy is a python library it is used to perform wide range of mathematical operations.
     In python numpy is not a preinstalled library we need to install it externally
     to install numpy:
         -> go to terminal
