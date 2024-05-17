@@ -1,0 +1,15 @@
+Array Copy:
+    We can copy a numpy array by directly assigning it to another variable.
+    but the problem is when we do that both original array, copied array share same memory location.
+    when ever we change one array both array elements are change.
+To prevent same memory location problem we have two methods
+1.view():
+    it performs shallow copy
+    shallow cop means both arrays have different memory locations but one array update will effects other array
+    syntax:
+        arrayCopy_name = arrayName.view()
+2.copy():
+    it performs deep copy
+    means both arrrays have different adresses and both array vaues are individual to each other
+    syntax:
+        arrayCopy_name = arrayName.copy()
