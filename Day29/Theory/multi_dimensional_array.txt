@@ -1,0 +1,11 @@
+Multi Dimensional Array:
+    The main purpose of using numpy arrays is numpy support multi dimensional arrays
+
+we can create NDArray:
+    arr = array([[row1 elements],[row2 elements],..,[row n elements]])
+we can faltten an NDArray with flatten():
+    arr1 = arr.flatten()
+we can reshape an array with reshape():
+    arr2 = arr1.reshape(rows, cols)
+                   or
+    arr2 = arr1.reshape(dimensions of array1, Dimensions of array2, no of elements per array)
