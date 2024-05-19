@@ -1,0 +1,11 @@
+Matrices in numpy:
+    the structure of the matrix is same as the multi dimensional array but matrix supports more operations than the array.
+Syntax :
+    1.we can create a the matrix like this:
+        variable = matrix('val1,val2; val1,val2')
+        elements are separated by , and rows can be separated by ;
+    2.we can also create the matrix by passing n-D array or list:
+        variable = matrix(2-dArray_name)
+we have multiple methods available for matrix:
+    ex:
+        diagonal(),getH(),getI(),getT(),getA1(),argmax(),argmin(),argsort()
