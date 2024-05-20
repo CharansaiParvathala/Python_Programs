@@ -1,0 +1,11 @@
+Inner Classes:
+    if a class contains another class inside it.
+    then that class is called as outer class, inside class is called inner class.
+Syntax:
+    class outer_class:
+        #code
+        class inner_class:
+             #code
+ -> we can't access the inner class methods directly
+ -> Inner classes are useful in a particular situations like if an enity that is only related to one entity
+    in that situation we use inner classes.
