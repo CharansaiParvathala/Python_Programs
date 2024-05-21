@@ -1,0 +1,11 @@
+In Python, sockets are a fundamental networking concept used for communication between computer and network.
+
+Sockets can be categorized into two types: TCP sockets and UDP sockets.
+
+1. TCP (Transmission Control Protocol) sockets: connection communication
+2. UDP (User Datagram Protocol) sockets: connection less direct communication
+
+In Python, the `socket` module provides a way to work with sockets.
+    1.We can create a socket object using `socket.socket()`
+    2.bind it to a specific address and port.
+    3.then listen for incoming connections or initiate connections to other sockets.
