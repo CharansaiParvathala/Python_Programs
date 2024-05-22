@@ -1,0 +1,11 @@
+Definition: Threads in Python are independent flows of execution that enable programs to perform multiple tasks simultaneously.
+
+Syntax:
+    Thread Creation: Threads are created using the `Thread` class from the `threading` module:
+        import threading
+        my_thread = threading.Thread(target=my_function)
+    Starting a Thread: The `start()` method initiates a thread's activity:
+         my_thread.start()
+
+    Joining a Thread: The `join()` method waits for a thread to complete before proceeding:
+        my_thread.join()
