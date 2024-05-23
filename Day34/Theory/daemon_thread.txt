@@ -1,0 +1,8 @@
+Daemon Thread:
+    -> Normal thread alive until we kill it or it task is completed
+       even if all background thrads are dead the normal thtead alive utill we stop it.
+    -> Meanwhile deamon thread is a thread which automatically killed once all background threads are killed or program completed
+    How to create daemon thread:
+        we can create a daemon thread by simply giving daemon=True in creation
+        syntax:
+            t = threading.Thread(target=method , daemon=True)
