@@ -1,0 +1,9 @@
+Recursive Function:
+    a function call itself repeatedly that function is called recursive function
+The concept is some what difficult to understand but it is uuseful in some situations
+like finding factorial, fibonacci series
+Syntax:
+    def fun_name():
+        if condition:
+            fun_name()
+    if we call function inside the same function without proper condition it becomes infinite recursion.
