@@ -12,6 +12,6 @@ if os.path.exists(copyfilepath):
 
 '''
 copyfile : only cpoies file content
-copy : copy file contet along with directory or path
+copy : copy file content along with directory or path
 copy2 : copy file content , path with meta data (data qbout file : file created date,file nane etc)
 '''
